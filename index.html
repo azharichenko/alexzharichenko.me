@@ -1,0 +1,247 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Computer Science Guy</title>
+        <meta name="description" content="Personal website for Alex Zharichenko.">
+        <meta name="author" content="Alex Zharichenko">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+        <link rel="icon" href="favicon.ico">
+
+        <style>
+            *
+            {
+                margin: 0;
+            }
+            html, body
+            {
+                height: 100%;
+                width: 100%;
+                font-family: 'Source Sans Pro';
+                display: flex;
+            }
+            .left-wrapper
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 30%;
+                background-color: #d32f2f;
+            }
+            .left
+            {
+                width: 75%;
+                color: white;
+                text-align: center;
+            }
+            .title
+            {
+                color: white;
+                font-size: 3em;
+                font-weight: bold;
+            }
+            .right-wrapper
+            {
+                height: 100%;
+                width: 70%;
+                display: flex;
+                justify-content: center;
+            }
+            .right
+            {
+                padding: 80px;
+                overflow-y: scroll;
+            }
+            .cols
+            {
+                display: flex;
+                justify-content: space-between;
+            }
+            .cols-left
+            {
+            }
+            .cols-right
+            {
+            }
+            ul
+            {
+                padding: 0;
+                padding-left: 20px;
+            }
+            h1
+            {
+                color: #ff6659;
+                background-color: #E7ECF0;
+                padding: 5px;
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-bottom: 5px;
+            }
+            .position
+            {
+                color: #9a0007;
+                font-weight: bold;
+            }
+            .range
+            {
+                font-weight: bold;
+            }
+            .section
+            {
+                margin-bottom: 20px;
+            }
+            .right div:last-child
+            {
+                margin-bottom: 0;
+            }
+            .section-content
+            {
+                margin-left: 25px;
+                margin-right: 25px;
+            }
+            .right-link
+            {
+                text-decoration: none;
+                color: white;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            a
+            {
+                color: black;
+            }
+            .project-highlight
+            {
+                margin-left: 10px;
+                color: #9a0007;
+                font-weight: bold;
+            }
+            @media (max-width: 800px)
+            {
+                html, body
+                {
+                    display: block;
+                }
+                .left-wrapper
+                {
+                    width: 100%;
+                    height: 200px;
+                }
+                .right-wrapper
+                {
+                    width: 100%;
+                }
+                .right
+                {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    overflow-y: visible;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="left-wrapper">
+            <div class="left">
+                <div class="title">
+                    alex zharichenko
+                </div>
+                <a class="right-link" href=".pdf">Resume</a>
+                <a class="right-link" href="mailto:azharichenko@gmail.com">Email</a>
+                <a class="right-link" href="https://github.com/azharichenko">GitHub</a>
+                <a class="right-link" href="https://www.linkedin.com/in/azharichenko/">LinkedIn</a>
+            </div>
+        </div>
+        <div class="right-wrapper">
+            <div class="right">
+                <div class="section">
+                    <h1>Experience</h1>
+                    <div class="section-content">
+                                              <div class="exp">
+                            <div class="cols">
+                                <div class="cols-left">
+                                    <b>CMU Software Engineering Institute</b>
+                                </div>
+                                <div class="col-right range">
+                                    May 2018 - August 2018
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="cols-left position">
+                                    Software Engineering Intern
+                                </div>
+                                <div class="col-right">
+                                    Pittsburgh, PA
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Build data analytic and visualization tools
+                                <br>
+                                <b>(HTML, CSS, Bootstrap, Python, JavaScript, PostgreSQL, Django)</b>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h1>Education</h1>
+                    <div class="section-content">
+                        <div class="cols">
+                            <div class="cols-left">
+                                <b>University of Pittsburgh</b>
+                            </div>
+                            <div class="cols-right">
+                                <b>Expected Graduation:</b> 2021
+                            </div>
+                        </div>
+                        Bachelor of Science in Computer Science & Bachelor of Science in Statistics
+                        <br>
+                        <b>Coursework:</b> Algorithms, Data Structures, Systems Software, Computer Organization, Discrete Structures, Linear Algebra, Calculus 1/2/3, Probability, Statistics
+                    </div>
+                </div>
+                <div class="section">
+                    <h1>Skills</h1>
+                    <div class="section-content">
+                        <b>Languages: </b> Python, Java, JavaScript, HTML, CSS, SQL, Bash, R, C/C++
+                        <br>
+                        <b>Technologies: </b>Git, Flask, PostgreSQL, Bootstrap, Django, Linux
+                    </div>
+                </div>
+                <div class="section">
+                    <h1>Projects</h1>
+                    <div class="section-content">
+                        <div class="cols">
+                            <div class="cols-left">
+                                <b><a href="https://github.com/Pitt-CSC/PittAPI">PittAPI</a></b>
+                                <span class="project-highlight">Making Pitt's Data more Open to All</span>
+                                <br>
+                                Combination of scraping tools to gather various information about the University of Pittsburgh.
+                            </div>
+                            <div class="cols-right range">
+                                Feb 2017 - Present
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h1>Activites</h1>
+                    <div class="section-content">
+                        <div class="cols">
+                            <div class="cols-left">
+                                <b>Pitt Computer Science Club</b> - Business Manager
+                            </div>
+                            <div class="cols-right range">
+                                August 2018 - Present
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
