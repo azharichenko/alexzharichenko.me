@@ -61,9 +61,15 @@ layout: home
     <div class="section">
       <h1>Skills</h1>
       <div class="section-content">
-        <b>Languages: </b> Python, Java, JavaScript, HTML, CSS, SQL, Bash, R, C/C++
+        <b>Languages: </b>
+        {% for language in site.data.personal.languages %}
+          {% if forloop.last == false %}{{ language }},{% else %}{{ language }}{% endif %}
+        {% endfor %}
         <br>
-        <b>Technologies: </b>Git, Flask, PostgreSQL, Bootstrap, Django, Linux
+        <b>Technologies: </b>
+        {% for technology in site.data.personal.technologies %}
+          {% if forloop.last == false %}{{ technology }},{% else %}{{ technology }}{% endif %}
+        {% endfor %}
       </div>
     </div>
     <div class="section">
@@ -93,7 +99,7 @@ layout: home
             <b>{{ activity.organization }}</b> - {{ activity.position }}
           </div>
           <div class="cols-right range">
-            {{ activity.start-date }}{% if activity.end-date %}- {{ activity.end-date }}{% endif %} 
+            {{ activity.start-date }}{% if activity.end-date %}- {{ activity.end-date }}{% endif %}
           </div>
         </div>
       </div>
