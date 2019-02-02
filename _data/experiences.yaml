@@ -1,0 +1,28 @@
+- organization: University of Pittsburgh Department of Developmental Biology
+  position: Software Developer
+  location: Pittsburgh, PA
+  start-date: August 2018
+  accomplishments:
+  technologies:
+    - R
+    - Python
+    - SQLite
+    - Java
+    - NextFlow
+  end-date: Present
+
+- organization: CMU Software Engineering Institute (ETC)
+  position: Software Engineering Intern
+  location: Pittsburgh, PA
+  accomplishments:
+    - Built data analytic and visualization tools
+  technologies:
+    - HTML
+    - CSS
+    - Bootstrap
+    - Python
+    - JavaScript
+    - PostgreSQL
+    - Django
+  start-date: May 2018
+  end-date: August 2018
