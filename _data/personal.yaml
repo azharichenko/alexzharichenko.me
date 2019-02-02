@@ -1,0 +1,45 @@
+languages:
+  - Python
+  - R
+  - Java
+  - C
+  - JavaScript
+  - HTML
+  - CSS
+  - SQL
+technologies:
+  - Git/GitHub
+  - Windows/Linux
+  - PostgreSQL
+  - SQLite
+  - Tableau
+  - Google CLoud
+libraries:
+  - Flask
+  - Django
+  - Tidyverse
+  - Numpy/SciPy
+  - Boostrap
+activites:
+  - organization: Pitt Computer Science Club
+    position: Business Manager
+    start-date: Aug. 2018
+    end-date: Present
+  - organization: SteelHacks 2019
+    position: Hackathon Committee Member
+    start-date: Jan. 2019
+    end-date: Present
+  - organization: She Innovates 2019
+    position: Hackathon Committee Member
+    start-date: Nov. 2019
+    end-date: Jan. 2019
+  - organization: Pittsburgh Python
+    position: Speaker
+    start-date: Aug. 2018
+  - organization: CV Computer Science Education Club
+    position: Leader and Teacher
+    start-date: Aug. 2015
+    end-date: May 2017
+  - organization: Cumberland Valley High School
+    position: Hall of Fame for Computer Science
+    start-date: May 2017

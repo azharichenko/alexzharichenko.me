@@ -42,59 +42,61 @@ layout: home
       {% endif %}
       {% endfor %}
     </div>
-                <div class="section">
-                    <h1>Education</h1>
-                    <div class="section-content">
-                        <div class="cols">
-                            <div class="cols-left">
-                                <b>University of Pittsburgh</b>
-                            </div>
-                            <div class="cols-right">
-                                <b>Expected Graduation:</b> 2021
-                            </div>
-                        </div>
-                        Bachelor of Science in Computer Science & Bachelor of Science in Statistics
-                        <br>
-                        <b>Coursework:</b> Algorithms, Data Structures, Systems Software, Computer Organization, Discrete Structures, Linear Algebra, Calculus 1/2/3, Probability, Statistics
-                    </div>
-                </div>
-                <div class="section">
-                    <h1>Skills</h1>
-                    <div class="section-content">
-                        <b>Languages: </b> Python, Java, JavaScript, HTML, CSS, SQL, Bash, R, C/C++
-                        <br>
-                        <b>Technologies: </b>Git, Flask, PostgreSQL, Bootstrap, Django, Linux
-                    </div>
-                </div>
-                <div class="section">
-                    <h1>Projects</h1>
-                    {% for project in site.data.projects %}
-                    <div class="section-content">
-                        <div class="cols">
-                            <div class="cols-left">
-                                <b><a href="{{ project.repo_url }}">{{ project.name }}</a></b>
-                                <span class="project-highlight">{{ project.tagline }}</span>
-                                <br>
-                                {{ project.description }}
-                            </div>
-                            <div class="cols-right range">
-                                {{ project.start-date }} - {{ project.end-date }}
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div class="section">
-                    <h1>Activites</h1>
-                    <div class="section-content">
-                        <div class="cols">
-                            <div class="cols-left">
-                                <b>Pitt Computer Science Club</b> - Business Manager
-                            </div>
-                            <div class="cols-right range">
-                                August 2018 - Present
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <div class="section">
+      <h1>Education</h1>
+      <div class="section-content">
+        <div class="cols">
+          <div class="cols-left">
+            <b>University of Pittsburgh</b>
+          </div>
+          <div class="cols-right">
+            <b>Expected Graduation:</b> 2021
+          </div>
+        </div>
+        Bachelor of Science in Computer Science & Bachelor of Science in Statistics
+        <br>
+        <b>Coursework:</b> Algorithms, Data Structures, Systems Software, Computer Organization, Discrete Structures, Linear Algebra, Calculus 1/2/3, Probability, Statistics
+      </div>
     </div>
+    <div class="section">
+      <h1>Skills</h1>
+      <div class="section-content">
+        <b>Languages: </b> Python, Java, JavaScript, HTML, CSS, SQL, Bash, R, C/C++
+        <br>
+        <b>Technologies: </b>Git, Flask, PostgreSQL, Bootstrap, Django, Linux
+      </div>
+    </div>
+    <div class="section">
+      <h1>Projects</h1>
+      {% for project in site.data.projects %}
+      <div class="section-content">
+        <div class="cols">
+          <div class="cols-left">
+            <b><a href="{{ project.repo_url }}">{{ project.name }}</a></b>
+            <span class="project-highlight">{{ project.tagline }}</span>
+            <br>
+            {{ project.description }}
+          </div>
+          <div class="cols-right range">
+            {{ project.start-date }} - {{ project.end-date }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="section">
+      <h1>Activites</h1>
+      {% for activity in site.data.personal.activites %}
+      <div class="section-content">
+        <div class="cols">
+          <div class="cols-left">
+            <b>{{ activity.organization }}</b> - {{ activity.position }}
+          </div>
+          <div class="cols-right range">
+            {{ activity.start-date }}{% if activity.end-date %}- {{ activity.end-date }}{% endif %} 
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>
