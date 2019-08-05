@@ -13,22 +13,27 @@ technologies:
   - PostgreSQL
   - SQLite
   - Tableau
-  - Google CLoud
+  - Google Cloud
 libraries:
   - Flask
   - Django
   - Tidyverse
   - Numpy/SciPy
   - Boostrap
+  - PySpark
 activites:
   - organization: Pitt Computer Science Club
     position: Business Manager
     start-date: Aug. 2018
     end-date: Present
+  - organization: Hacking4Humanity
+    position: Event Organizer
+    start-date: Mar. 2019
+    end-date: Mar. 2019
   - organization: SteelHacks 2019
     position: Hackathon Committee Member
     start-date: Jan. 2019
-    end-date: Present
+    end-date: Mar. 2019
   - organization: She Innovates 2019
     position: Hackathon Committee Member
     start-date: Nov. 2019
