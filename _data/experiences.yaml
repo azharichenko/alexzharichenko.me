@@ -3,6 +3,9 @@
   location: Pittsburgh, PA
   start-date: May 2019
   accomplishments:
+    - Built internal utility for converting SQL queries into python code for fast execution on computing cluster.
+    - Built Flask web app for users to submit SQL query and have it converted to python and executed.
+    - Built various python scripts to assist with any tasks the data engineering team needed.
   technologies:
     - Python
     - Java
@@ -18,6 +21,9 @@
   location: Pittsburgh, PA
   start-date: August 2018
   accomplishments:
+    - Built a Shiny application to help research scientists get subsets of large gene variant datasets.
+    - Built an ETL pipeline for gene variant datasets.
+    - Redeveloped the departments data pipeline for processing sequenced RNA data.
   technologies:
     - R
     - Python
@@ -30,7 +36,9 @@
   position: Software Engineering Intern
   location: Pittsburgh, PA
   accomplishments:
-    - Built data analytic and visualization tools
+    - Built dashboard web application for performing analysis and visualizations of cyber intelligence data for a study.
+    - Performed analysis on data collected through the use of NLP libraries and statistics.
+    - Built an ETL pipeline for interview data to be ingested by the dashboard web application.
   technologies:
     - HTML
     - CSS
