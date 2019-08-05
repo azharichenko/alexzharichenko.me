@@ -16,9 +16,10 @@
   description:
   start-date: January 2019
   end-date: Present
-- name: sonar
-  repo-url:
-  tagline:
+- name: HealthyRideAnalysisPGH
+  repo-url: https://github.com/katelyn98/HealthyRideAnalysisPGH
+  tagline: Fun analyis project of bike ride data
   description:
-  start-date: July 2018
+  start-date: July 2019
   end-date: Present
+ 
