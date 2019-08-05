@@ -1,3 +1,18 @@
+- organization: Highmark Health
+  position: Data Engineering Intern
+  location: Pittsburgh, PA
+  start-date: May 2019
+  accomplishments:
+  technologies:
+    - Python
+    - Java
+    - SQL
+    - PySpark
+    - Spark
+    - Apache Hadoop
+  end-date: Present
+
+
 - organization: University of Pittsburgh Department of Developmental Biology
   position: Software Developer
   location: Pittsburgh, PA
@@ -9,7 +24,7 @@
     - SQLite
     - Java
     - NextFlow
-  end-date: Present
+  end-date: May 2019
 
 - organization: CMU Software Engineering Institute (ETC)
   position: Software Engineering Intern
