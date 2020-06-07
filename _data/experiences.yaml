@@ -4,6 +4,9 @@
   start-date: May 2020
   accomplishments:
   technologies:
+    - Golang
+    - Python
+    - AWS
   end-date: Future
 
 - organization: Highmark Health
