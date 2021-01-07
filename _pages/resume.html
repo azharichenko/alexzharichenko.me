@@ -1,0 +1,64 @@
+---
+layout: page
+title: resume
+permalink: /resume/
+description: A summary of my experience.
+nav: true
+social: true
+---
+
+*For full resume please email me at <a href="mailto:azharichenko@gmail.com">azharichenko@gmail.com</a>*
+
+<hr/>
+
+<h3>Education</h3>
+
+<h5><b>Bachelor of Science in Computer Science</b></h5>
+<h6>University of Pittsburgh, School of Computing and Information</h6>
+<p>Pittsburgh, PA | August 2017 - December 2021</p>
+<b>Notable Coursework:</b> Algorithms, Data Structures, Systems Software, Operating Systems, Database Management, Networking, High Performance Computing, Machine Learning, Deep Learning, Programming Languages for the Web
+
+<br/><br/>
+
+<h5><b>Bachelor of Science in Statistics</b></h5>
+<h6>University of Pittsburgh, Dietrich School of Arts and Sciences</h6>
+<p>Pittsburgh, PA | August 2017 - December 2021</p>
+<b>Notable Coursework:</b> Bayesian Statistics, Statistical Learning, Probability, Statistics, Multivariate Analysis, Linear Algebra, Data Science, Time Series Analysis
+
+<hr/>
+
+<h3>Work Experience</h3>
+{% for experience in site.data.experiences %}
+  <h5><b>{{ experience.position }}</b></h5>
+  <h6>{{ experience.organization }}</h6>
+  <p>{{ experience.location }} | {{ experience.start-date }} - {{ experience.end-date }}</p>
+  <p>
+    Technology Stack:<b>
+    {% for technology in experience.technologies %}
+      {% if forloop.last == false %}
+        {{ technology }}, 
+      {% else %}
+        {{ technology }}
+      {% endif %}
+    {% endfor %}
+    </b>
+  </p>
+    {% if forloop.last == false %}
+      <br/>
+    {% endif %}
+{% endfor %}
+
+
+<!-- <h1>Activites</h1>
+{% for activity in site.data.personal.activites %}
+<div class="section-content">
+        <div class="cols">
+          <div class="cols-left">
+            <b>{{ activity.organization }}</b> - {{ activity.position }}
+          </div>
+          <div class="cols-right range">
+            {{ activity.start-date }}{% if activity.end-date %} - {{ activity.end-date }}{% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %} -->

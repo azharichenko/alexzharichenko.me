@@ -1,19 +1,17 @@
-- organization: Uber Advanced Technologies Group
+- organization: Uber Advanced Technologies Group (<i>now Aurora</i>), Data Platforms Engineering
   position: Software Engineering Intern
   location: Pittsburgh, PA
   start-date: May 2020
-  accomplishments:
   technologies:
-    - Golang
     - Python
+    - Golang
     - AWS
-  end-date: Future
+  end-date: August 2020
 
-- organization: Highmark Health
+- organization: Highmark Health, Department of Analytics
   position: Data Engineering Intern
   location: Pittsburgh, PA
   start-date: May 2019
-  accomplishments:
   technologies:
     - Python
     - Java
@@ -23,12 +21,10 @@
     - Apache Hadoop
   end-date: May 2020
 
-
-- organization: University of Pittsburgh Department of Developmental Biology
+- organization: University of Pittsburgh, School of Medicine, Department of Developmental Biology
   position: Software Developer
   location: Pittsburgh, PA
   start-date: August 2018
-  accomplishments:
   technologies:
     - R
     - Python
@@ -37,10 +33,9 @@
     - NextFlow
   end-date: May 2019
 
-- organization: CMU Software Engineering Institute (ETC)
-  position: Software Engineering Intern
+- organization: CMU Software Engineering Institute, Emerging Technologies Center
+  position: Data Scientist Intern
   location: Pittsburgh, PA
-  accomplishments:
   technologies:
     - HTML
     - CSS
