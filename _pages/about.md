@@ -16,4 +16,4 @@ I'm a Student studying at the University of Pittsburgh, pursuing bachelors of sc
 
 I'm currently working as an ML Research Assistant and Teaching Assistant for University of Pittsburgh's School of Computing and Information. Additionaly working for a local startup, Komodo Analytics, as a Backend Developer.
 
-I've previously worked at places such as Uber ATG (now Aurora), CMU's Software Engineering Institute, and Highmark Health in various positions including data engineering, software engineering, and data science. 
+I've previously worked at places such as Uber ATG (now apart of Aurora), CMU's Software Engineering Institute, and Highmark Health in various positions including data engineering, software engineering, and data science. 
