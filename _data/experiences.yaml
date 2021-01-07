@@ -1,3 +1,16 @@
+- organization: University of Pittsburgh, School of Computing and Information
+  position: Undergraduate Research Assistant
+  location: Pittsburgh, PA
+  start-date: August 2020
+  technologies:
+    - Python
+    - pandas
+    - scikit-learn
+    - SciPy
+    - Dash
+    - Plotly
+  end-date: Present
+
 - organization: Uber Advanced Technologies Group (<i>now Aurora</i>), Data Platforms Engineering
   position: Software Engineering Intern
   location: Pittsburgh, PA
@@ -6,6 +19,8 @@
     - Python
     - Golang
     - AWS
+    - Terraform
+    - Honeycomb.io
   end-date: August 2020
 
 - organization: Highmark Health, Department of Analytics
@@ -19,6 +34,7 @@
     - PySpark
     - Spark
     - Apache Hadoop
+    - HTC Vive
   end-date: May 2020
 
 - organization: University of Pittsburgh, School of Medicine, Department of Developmental Biology
@@ -27,7 +43,8 @@
   start-date: August 2018
   technologies:
     - R
-    - Python
+    - Tidyverse
+    - Shiny
     - SQLite
     - Java
     - NextFlow
@@ -37,12 +54,11 @@
   position: Data Scientist Intern
   location: Pittsburgh, PA
   technologies:
-    - HTML
-    - CSS
-    - Bootstrap
     - Python
-    - JavaScript
-    - PostgreSQL
     - Django
+    - Javascript
+    - SpaCy
+    - Pandas
+    - PostgreSQL
   start-date: May 2018
   end-date: August 2018

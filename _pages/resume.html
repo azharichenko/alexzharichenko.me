@@ -7,7 +7,7 @@ nav: true
 social: true
 ---
 
-*For full resume please email me at <a href="mailto:azharichenko@gmail.com">azharichenko@gmail.com</a>*
+<i>For full resume please email me at <a href="mailto:azharichenko@gmail.com">azharichenko@gmail.com</a></i>
 
 <hr/>
 
@@ -48,17 +48,10 @@ social: true
     {% endif %}
 {% endfor %}
 
+<hr/>
 
-<!-- <h1>Activites</h1>
+<h3>Extracurricular</h3>
 {% for activity in site.data.personal.activites %}
-<div class="section-content">
-        <div class="cols">
-          <div class="cols-left">
-            <b>{{ activity.organization }}</b> - {{ activity.position }}
-          </div>
-          <div class="cols-right range">
-            {{ activity.start-date }}{% if activity.end-date %} - {{ activity.end-date }}{% endif %}
-          </div>
-        </div>
-      </div>
-      {% endfor %} -->
+<h6><b>{{ activity.organization }}</b> - {{ activity.position }}</h6>
+<h6>{{ activity.start-date }}{% if activity.end-date %} - {{ activity.end-date }}{% endif %}</h6>
+{% endfor %}

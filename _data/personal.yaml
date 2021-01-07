@@ -1,23 +1,26 @@
 activites:
+  - organization: Hacking4Humanity 2020 Policy Track Winner
+    position: Participant
+    start-date: November 2020
+  - organization: CSC Hacks
+    position: Hackathon Organizer
+    start-date: September 2020
+    end-date: November 2020
   - organization: Pitt Computer Science Club
     position: Business Manager
-    start-date: Aug. 2018
-    end-date: Present
-  - organization: Hacking4Humanity
+    start-date: April 2018
+    end-date: April 2020
+  - organization: Hacking4Humanity 2019
     position: Event Organizer
-    start-date: Mar. 2019
-    end-date: Mar. 2019
-  - organization: SteelHacks 2019
-    position: Hackathon Committee Member
-    start-date: Jan. 2019
-    end-date: Mar. 2019
+    start-date: March 2019
+  - organization: SteelHacks
+    position: Hackathon Organizer
+    start-date: November 2018
+    end-date: Present
   - organization: She Innovates 2019
-    position: Hackathon Committee Member
-    start-date: Nov. 2019
-    end-date: Jan. 2019
-  - organization: Pittsburgh Python
-    position: Speaker
-    start-date: Aug. 2018
+    position: Hackathon Organizer
+    start-date: November 2018
+    end-date: Present
   - organization: CV Computer Science Education Club
     position: Leader and Teacher
     start-date: Aug. 2015
