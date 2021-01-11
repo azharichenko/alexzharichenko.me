@@ -1,3 +1,27 @@
+- organization: Komodo Analytics
+  position: Backend Engineering Intern
+  location: Pittsburgh, PA
+  start-date: January 2021
+  technologies:
+    - Python
+  end-date: Present
+
+- organization: University of Pittsburgh, School of Computing and Information
+  position: Undergraduate Machine Learning Research Assistant
+  location: Pittsburgh, PA
+  start-date: January 2021
+  technologies:
+    - Python
+    - PyTorch
+  end-date: Present
+
+- organization: University of Pittsburgh, School of Computing and Information
+  position: Undergraduate Teaching Assistant
+  location: Pittsburgh, PA
+  start-date: January 2021
+  technologies:
+  end-date: Present
+
 - organization: University of Pittsburgh, School of Computing and Information
   position: Undergraduate Research Assistant
   location: Pittsburgh, PA
