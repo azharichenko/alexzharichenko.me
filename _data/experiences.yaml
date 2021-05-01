@@ -1,9 +1,19 @@
+- organization: Aurora Innovation
+  position: Software Engineering Intern
+  location: Pittsburgh, PA (Remote)
+  start-date: May 2021
+  technologies:
+  end-date: Present
+
 - organization: Komodo Analytics
   position: Backend Engineering Intern
   location: Pittsburgh, PA
   start-date: January 2021
   technologies:
     - Python
+    - MySQL
+    - SQLAlchemy
+    - Apache Airflow
   end-date: Present
 
 - organization: University of Pittsburgh, School of Computing and Information
@@ -20,7 +30,8 @@
   location: Pittsburgh, PA
   start-date: January 2021
   technologies:
-  end-date: Present
+    - Java
+  end-date: May 2021
 
 - organization: University of Pittsburgh, School of Computing and Information
   position: Undergraduate Research Assistant
