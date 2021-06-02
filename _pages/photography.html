@@ -223,14 +223,16 @@ window.addEventListener("DOMContentLoaded", () => {initPhotoSwipeFromDOM('.my-ga
 {% for collection in site.data.images %}
 <h3>{{ collection.name }} - {{ collection.location }}</h3>
 <hr/>
-<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    {% for img in collection.images %}
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="/assets/img/photography/{{img}}" itemprop="contentUrl", data-size="2000x1333">
-            <img src="/assets/img/photography/thumbnails/{{img}}" itemprop="thumbnail" />
-        </a>
-    </figure>
-    {% endfor %}
+<div class="gallery-contain">
+    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        {% for img in collection.images %}
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+            <a href="/assets/img/photography/{{img}}" itemprop="contentUrl", data-size="2000x1333">
+                <img src="/assets/img/photography/thumbnails/{{img}}" itemprop="thumbnail" />
+            </a>
+        </figure>
+        {% endfor %}
+    </div>
 </div> 
 {% endfor %}
 

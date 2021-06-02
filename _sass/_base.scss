@@ -429,8 +429,11 @@ html.transition *:after {
 
 // Figures
 
-.my-gallery {
+.gallery-contain {  
   margin-bottom: 1em;
+}
+
+.my-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, 150px);
   grid-template-rows: repeat(auto-fit, 150px);
