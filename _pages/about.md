@@ -12,8 +12,8 @@ news: false  # includes a list of news items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Student studying at the University of Pittsburgh, pursuing bachelors of science degrees in both Computer Science and Statistics. I'm an aspiring Machine Learning Engineer/Researcher with interests in Data Mining and Reinforcement Learning.
+I'm a Student studying at the University of Pittsburgh, pursuing bachelors of science degrees in both Computer Science and Statistics. I'm an aspiring Machine Learning Engineer/Researcher with interests in Data Mining.
 
-I'm currently working as an ML Research Assistant and Teaching Assistant for University of Pittsburgh's School of Computing and Information. Additionaly working for a local startup, Komodo Analytics, as a Backend Developer.
+I'm currently working as a Software Developer at Aurora Innovation and ML Research Assistant for the University of Pittsburgh's School of Computing and Information. 
 
-I've previously worked at places such as Uber ATG (now apart of Aurora), CMU's Software Engineering Institute, and Highmark Health in various positions including data engineering, software engineering, and data science. 
+I've previously worked at places such as Uber ATG (now apart of Aurora Innovation), Komodo Analytics (local Pittsburgh Startup) CMU's Software Engineering Institute, and Highmark Health in various positions including data engineering, software engineering, and data science. 

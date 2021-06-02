@@ -227,8 +227,8 @@ window.addEventListener("DOMContentLoaded", () => {initPhotoSwipeFromDOM('.my-ga
     <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
         {% for img in collection.images %}
         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <a href="/assets/img/photography/{{img}}" itemprop="contentUrl", data-size="2000x1333">
-                <img src="/assets/img/photography/thumbnails/{{img}}" itemprop="thumbnail" />
+            <a href="/assets/img/photography/{{img.path}}" itemprop="contentUrl", data-size="{{img.width}}x{{img.height}}">
+                <img src="/assets/img/photography/thumbnails/{{img.path}}" itemprop="thumbnail" />
             </a>
         </figure>
         {% endfor %}

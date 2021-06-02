@@ -1,19 +1,39 @@
 - name: 5/31/2021
   location: Pittsburgh, PA
   images:
-    - 1.JPG
-    - 2.JPG
-    - 3.JPG
-    - 4.JPG
-    - 5.JPG
-    - 6.JPG
-    - 7.JPG
+    - path: 1.JPG
+      width: 2000
+      height: 1333
+    - path: 2.JPG
+      width: 2000
+      height: 1333
+    - path: 3.JPG
+      width: 2000
+      height: 1333
+    - path: 4.JPG
+      width: 2000
+      height: 1333
+    - path: 5.JPG
+      width: 2000
+      height: 1333
+    - path: 6.JPG
+      width: 2000
+      height: 1333
+    - path: 7.JPG
+      width: 2000
+      height: 1333
 - name: 4/16/2021
   location: Pittsburgh, PA
   images:
-    - 9.JPG
-    - 10.JPG
+    - path: 9.JPG
+      width: 2000
+      height: 1333
+    - path: 10.JPG
+      width: 2000
+      height: 1333
 - name: 9/19/2020
   location: Pittsburgh, PA
   images:
-    - 8.JPG
+    - path: 8.JPG
+      width: 2000
+      height: 1125
