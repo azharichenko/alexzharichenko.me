@@ -3,6 +3,12 @@
   location: Pittsburgh, PA (Remote)
   start-date: May 2021
   technologies:
+    - Python
+    - AWS Athena
+    - AWS EMR
+    - Pandas
+    - Apache Arrow
+    - Apache Parquet
   end-date: Present
 
 - organization: Komodo Analytics

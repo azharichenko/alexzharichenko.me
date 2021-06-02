@@ -22,6 +22,18 @@
     - path: 7.JPG
       width: 2000
       height: 1333
+    - path: 11.JPG
+      width: 2000
+      height: 1333
+    - path: 12.JPG
+      width: 2000
+      height: 1333
+    - path: 13.JPG
+      width: 2000
+      height: 1333
+    - path: 14.JPG
+      width: 2000
+      height: 1333
 - name: 4/16/2021
   location: Pittsburgh, PA
   images:
@@ -31,9 +43,42 @@
     - path: 10.JPG
       width: 2000
       height: 1333
+    - path: 15.JPG
+      width: 2000
+      height: 1333
 - name: 9/19/2020
   location: Pittsburgh, PA
   images:
     - path: 8.JPG
       width: 2000
       height: 1125
+- name: 12/9/2019
+  location: Vancouver, BC
+  images:
+    - path: 16.JPG
+      width: 1500
+      height: 2000
+    - path: 17.JPG
+      width: 1500
+      height: 2000
+- name: 10/2019
+  location: Pittsburgh, PA
+  images:
+    - path: 18.JPG
+      width: 1500
+      height: 2000
+    - path: 19.JPG
+      width: 2000
+      height: 1500
+    - path: 20.JPG
+      width: 1500
+      height: 2000
+    - path: 21.JPG
+      width: 1500
+      height: 2000
+    - path: 22.JPG
+      width: 1500
+      height: 2000
+    - path: 23.JPG
+      width: 2000
+      height: 1500
