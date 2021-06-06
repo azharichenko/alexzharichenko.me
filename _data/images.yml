@@ -52,6 +52,21 @@
     - path: 8.JPG
       width: 2000
       height: 1125
+    - path: 36.JPG
+      width: 2000
+      height: 1500
+- name: 8/2020
+  location: Pittsburgh, PA
+  images:
+    - path: 35.JPG
+      width: 1486
+      height: 2000
+- name: 3/2020
+  location: Toronto, ON
+  images:
+    - path: 34.JPG
+      width: 1486
+      height: 2000
 - name: 12/2019
   location: Vancouver, BC
   images:
@@ -59,6 +74,15 @@
       width: 1500
       height: 2000
     - path: 17.JPG
+      width: 1500
+      height: 2000
+    - path: 33.JPG
+      width: 2000
+      height: 1500
+- name: 11/2019
+  location: Pittsburgh, PA
+  images:
+    - path: 33.JPG
       width: 1500
       height: 2000
 - name: 10/2019
@@ -83,7 +107,7 @@
       width: 2000
       height: 1500
 - name: 9/2019
-  location: Cleveland, OH
+  location: Cleveland, OH | Chicago, IL | Pittsburgh, PA
   images:
     - path: 24.JPG
       width: 1500
@@ -104,5 +128,11 @@
       width: 2000
       height: 1449
     - path: 30.JPG
+      width: 1500
+      height: 2000
+    - path: 31.JPG
+      width: 1490
+      height: 1990
+    - path: 32.JPG
       width: 1500
       height: 2000
