@@ -1,4 +1,4 @@
-- name: 5/31/2021
+- name: 5/2021
   location: Pittsburgh, PA
   images:
     - path: 1.JPG
@@ -34,7 +34,7 @@
     - path: 14.JPG
       width: 2000
       height: 1333
-- name: 4/16/2021
+- name: 4/2021
   location: Pittsburgh, PA
   images:
     - path: 9.JPG
@@ -46,13 +46,13 @@
     - path: 15.JPG
       width: 2000
       height: 1333
-- name: 9/19/2020
+- name: 9/2020
   location: Pittsburgh, PA
   images:
     - path: 8.JPG
       width: 2000
       height: 1125
-- name: 12/9/2019
+- name: 12/2019
   location: Vancouver, BC
   images:
     - path: 16.JPG
@@ -82,7 +82,7 @@
     - path: 23.JPG
       width: 2000
       height: 1500
-- name: 9/28/2019
+- name: 9/2019
   location: Cleveland, OH
   images:
     - path: 24.JPG
