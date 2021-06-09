@@ -1,5 +1,5 @@
 - name: 6/2021
-  location: Harriburg, PA
+  location: Harrisburg, PA
   images:
     - path: 37.JPG
       width: 2000
@@ -64,7 +64,6 @@
     - path: 8.JPG
       width: 2000
       height: 1125
-      height: 1500
 - name: 8/2020
   location: Pittsburgh, PA
   images:
