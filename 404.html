@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /404.html
+---
+
+<style>
+img {
+    width: 75%;
+    height: 100%;
+}
+
+.cat_img {
+    margin: auto;
+}
+</style>
+
+
+
+<h2>404 Error - Oh no the page is missing!</h2>
+<h3>At least you found my cat!</h3>
+<div id="cat_img"></div>
+
+
+<script>
+function setupCatImage() { 
+    let number = Math.floor(Math.random() * 3) + 1;
+    var img = document.createElement("img");
+    img.src = "/assets/img/cats/" + number + ".jpg";
+    document.getElementById("cat_img").appendChild(img);
+}
+
+window.addEventListener("DOMContentLoaded", setupCatImage);
+</script>
+
