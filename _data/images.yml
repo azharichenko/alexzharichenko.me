@@ -70,6 +70,12 @@
     - path: 35.JPG
       width: 1486
       height: 2000
+- name: 5/2020
+  location: Harrisburg, PA
+  images:
+    - path: 40.JPG
+      width: 1500
+      height: 2000
 - name: 3/2020
   location: Toronto, ON
   images:
