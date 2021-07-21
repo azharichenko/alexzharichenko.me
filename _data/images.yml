@@ -1,3 +1,39 @@
+- name: 7/2021
+  location: Pittsburgh, PA
+  images:
+    - path: 45.JPG
+      width: 2000
+      height: 1500
+    - path: 46.JPG
+      width: 1500
+      height: 2000
+    - path: 47.JPG
+      width: 1500
+      height: 2000
+    - path: 48.JPG
+      width: 1500
+      height: 2000
+    - path: 49.JPG
+      width: 1500
+      height: 2000
+    - path: 50.JPG
+      width: 1500
+      height: 2000
+    - path: 51.JPG
+      width: 2000
+      height: 1500
+    - path: 52.JPG
+      width: 1500
+      height: 2000
+    - path: 53.JPG
+      width: 1500
+      height: 2000
+    - path: 54.JPG
+      width: 1500
+      height: 2000
+    - path: 55.JPG
+      width: 1500
+      height: 2000
 - name: 6/2021
   location: Harrisburg, PA
   images:
@@ -89,7 +125,7 @@
       width: 1486
       height: 2000
 - name: 1/2020
-  location: Philadelphia, PA & Harrisburg, PA
+  location: Philadelphia, PA | Harrisburg, PA
   images:
     - path: 42.JPG
       width: 1500
