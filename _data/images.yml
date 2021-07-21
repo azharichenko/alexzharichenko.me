@@ -68,20 +68,38 @@
   location: Pittsburgh, PA
   images:
     - path: 35.JPG
+      width: 1500
+      height: 2000
+- name: 7/2020
+  location: Pittsburgh, PA
+  images:
+    - path: 41.JPG
       width: 1486
       height: 2000
 - name: 5/2020
   location: Harrisburg, PA
   images:
     - path: 40.JPG
-      width: 1500
-      height: 2000
+      width: 2000
+      height: 1500
 - name: 3/2020
   location: Toronto, ON
   images:
     - path: 34.JPG
       width: 1486
       height: 2000
+- name: 1/2020
+  location: Philadelphia, PA & Harrisburg, PA
+  images:
+    - path: 42.JPG
+      width: 1500
+      height: 2000
+    - path: 43.JPG
+      width: 1500
+      height: 2000
+    - path: 44.JPG
+      width: 2000
+      height: 1500
 - name: 12/2019
   location: Vancouver, BC
   images:
